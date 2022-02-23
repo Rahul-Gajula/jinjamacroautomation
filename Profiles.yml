@@ -1,0 +1,12 @@
+jinja:
+  target: dev
+  outputs:
+    dev:
+     type: synapse
+     driver: 'ODBC Driver 17 for SQL Server' 
+     server: prathamcdpserver.database.windows.net
+     port: 1433
+     database: cdp_db
+     schema: dbo
+     user: cdpadmin
+     password: device@123
